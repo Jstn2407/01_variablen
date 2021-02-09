@@ -40,6 +40,7 @@ console.log("Inhalt: " + test);
 /***** Variablen 02 *******/
 
 //Deklaration
+/*
 let ageJohn, ageMark;
 let birthYearJohn, birthYearMark, now;
 
@@ -49,7 +50,7 @@ now = date.getFullYear();
 ageJohn = 25;
 ageMark = 30;
 
-//Operation
+//Operation (Differenz)
 birthYearJohn = now - ageJohn;
 birthYearMark = now - ageMark;
 
@@ -58,3 +59,16 @@ console.log("bAktuelles Jahr:" + now);
 console.log("birthYearJohn:" + birthYearJohn);
 console.log("birthYearMark:" + birthYearMark);
 console.log("---------------------");
+*/
+
+/***** Variablen 03 *******/
+
+//Deklaration/Wertzuweisung
+let ageJohn, ageMark;
+ageJohn = 55;
+ageMark = 30;
+
+//Operation (Vergleich/Test)
+let isJohnOlder = (ageJohn > ageMark);
+
+console.log(isJohnOlder);
