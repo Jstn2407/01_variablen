@@ -62,7 +62,7 @@ console.log("---------------------");
 */
 
 /***** Variablen 03 *******/
-
+/*
 //Deklaration/Wertzuweisung
 let ageJohn, ageMark;
 ageJohn = 55;
@@ -71,4 +71,20 @@ ageMark = 30;
 //Operation (Vergleich/Test)
 let isJohnOlder = (ageJohn > ageMark);
 
+//isURLvalid() | Beispiel
+
 console.log(isJohnOlder);
+*/
+
+/***** Variablen 04 *******/
+
+let nix;
+let ageJohn = 28;
+let ageMark = 30;
+let firstName = "John";
+let isJohnOlder = (ageJohn > ageMark);
+
+console.log("nix: " + typeof nix);
+console.log("ageJohn: " + typeof ageJohn);
+console.log("name: " + typeof firstName);
+console.log("isJohnolder: " + typeof isJohnOlder);
